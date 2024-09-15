@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif;
+    }
+/* header */
+.header {
+    height: 12em;
+    /*
+    padding: 3%;
+    */
+    font-size: 2em;
+    background-image: url("https://litoralpoeta.cl/wp-content/uploads/2024/08/header-png.png");
+    background-size: cover;
+    background-position: center;
+    }
+.header h1 {
+        margin: 0px;
+        text-align: center;
+        padding: 72px 0 0 0;
+        font-weight: 400;
+
+    }
+.header p {
+        margin: 10px 0 0 0;
+        text-align: center;
+    }
+.header h3 {
+        margin: 15px 0 0 0;
+        text-align: center;
+        font-size: 16px;
+        font-family: monospace sans-serif;
+        font-style: italic;
+    }
+/* poetas */
+/*.circular
+    {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+    }*/
+
+.poetas {
+    width: 80%;
+    margin: auto;
+      }
+
+.poetas td {
+    width: 50%;
+    padding: 2em;
+      }
+
+.poetas h2 {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 44px;
+}
+
+.poetas p {
+    font-family: monospace;
+    font-size: 18px;
+    text-align: justify;
+    color: rgb(55, 53, 53);
+}
+
+.poetas a {
+    font-size: 14px;
+}
+
+.poetas img{
+    width: 80%;
+    border: solid 1px #ddd;
+      }
+/* footer */
+.footer{
+    padding: 20px 0 20px 0;
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 112, 41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 1em;
+      }
+
+      .footer a {
+    font: 400;color: rgb(255, 255, 255);
+      }
